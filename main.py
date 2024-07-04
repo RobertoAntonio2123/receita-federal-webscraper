@@ -6,9 +6,7 @@ import os
 
 files = [
     ('https://dadosabertos.rfb.gov.br/CNPJ/Cnaes.zip', 'Cnaes.zip'),
-    ('https://dadosabertos.rfb.gov.br/CNPJ/Empresas0.zip', 'Empresas0.zip'), 
-    ('https://dadosabertos.rfb.gov.br/CNPJ/Empresas1.zip', 'Empresas1.zip')
-    ]
+        ]
 
 def download_file(url, filename):
     urllib.request.urlretrieve(url, filename)
